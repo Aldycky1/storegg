@@ -18,6 +18,30 @@
       1,
       { "extensions": [".js", ".jsx", ".tsx"] }
     ],
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+    "import/no-unresolved": [
+      2, 
+      { "caseSensitive": false }
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "jsx-a11y/anchor-is-valid": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".tsx"],
+        "moduleDirectory": ["node_modules", "src/"]
+      }
+    }
   }
+  
 }
