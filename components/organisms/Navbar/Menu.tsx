@@ -6,7 +6,6 @@ interface MenuProps {
   active?: boolean;
   href: string;
 }
-
 export default function Menu(props: Partial<MenuProps>) {
   const { title, active, href = '/' } = props;
   const classTitle = cx({

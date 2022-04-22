@@ -30,7 +30,6 @@ export default function Illustration() {
               <Image src="/icon/star.svg" width={24} height={22} />
               <Image src="/icon/star.svg" width={24} height={22} />
               <Image src="/icon/star.svg" width={24} height={22} />
-
             </div>
           </div>
           <div className="card right-card position-absolute border-0">
@@ -52,6 +51,5 @@ export default function Illustration() {
         </div>
       </div>
     </div>
-
   );
 }

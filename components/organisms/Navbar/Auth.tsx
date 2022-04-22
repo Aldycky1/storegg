@@ -3,7 +3,6 @@ import Link from 'next/link';
 interface AuthProps {
   isLogin?: boolean;
 }
-
 export default function Auth(props:Partial<AuthProps>) {
   const { isLogin } = props;
   if (isLogin) {
@@ -27,7 +26,6 @@ export default function Auth(props:Partial<AuthProps>) {
               alt=""
             />
           </a>
-
           <ul className="dropdown-menu border-0" aria-labelledby="dropdownMenuLink">
             <li><Link href="/member"><a className="dropdown-item text-lg color-palette-2" href="#">My Profile</a></Link></li>
             <li><Link href="/"><a className="dropdown-item text-lg color-palette-2" href="#">Wallet</a></Link></li>
@@ -40,7 +38,6 @@ export default function Auth(props:Partial<AuthProps>) {
           </ul>
         </div>
       </li>
-
     );
   }
   return (
@@ -52,9 +49,7 @@ export default function Auth(props:Partial<AuthProps>) {
         >
           Sign In
         </a>
-
       </Link>
     </li>
-
   );
 }

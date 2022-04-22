@@ -188,7 +188,6 @@ export default function SignUpSuccess() {
               className="d-sm-block d-none"
             />
             dan menjadi pemenang!
-
           </p>
         </div>
         <div className="button-group d-flex flex-column mx-auto">
@@ -199,7 +198,6 @@ export default function SignUpSuccess() {
           >
             Top
             Up
-
           </a>
         </div>
       </div>

@@ -36,7 +36,6 @@ export default function GameItem(props:GameItemProps) {
           </div>
         </a>
       </Link>
-
     </div>
   );
 }

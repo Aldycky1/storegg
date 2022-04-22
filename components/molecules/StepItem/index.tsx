@@ -4,7 +4,6 @@ interface StepItemProps {
   desc1: string;
   desc2: string;
 }
-
 export default function StepItem(props: StepItemProps) {
   const {
     icon, title, desc1, desc2,
@@ -23,6 +22,5 @@ export default function StepItem(props: StepItemProps) {
         </p>
       </div>
     </div>
-
   );
 }
