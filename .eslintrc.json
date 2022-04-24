@@ -33,7 +33,9 @@
         "tsx": "never"
       }
     ],
-    "jsx-a11y/anchor-is-valid": "off"
+    "jsx-a11y/anchor-is-valid": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/function-component-definition": "off"
   },
   "settings": {
     "import/resolver": {
